@@ -18,6 +18,11 @@ body {
   background: white;
 }
 
+.margin-tb{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
 .header {
   text-align: center;
 }
@@ -58,4 +63,84 @@ body {
   border: 1px solid #3db0d6;
   font-size: 20px;
   padding: 15px
+}
+
+.main{
+  display: flex;
+}
+
+.left-side-container{
+  width: 75%;
+}
+
+.about-me{
+  width: 25%;
+  margin-left: 4px; 
+}
+
+.about-me p{
+  padding: 5px 0;
+}
+
+.my-services,
+.contact{
+  margin-right: 0;
+}
+
+.my-services div{
+  display: flex;
+}
+
+.service{
+  color: #3db0d6;
+  padding: 30px;
+  margin: 10px;
+  border: 2px solid #3db0d6;
+}
+
+.service:nth-child(odd){
+  border-radius: 5px;
+}
+
+.service:nth-child(even){
+  border-radius: 50%;
+}
+
+.contact div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact input,
+.contact textarea{
+  font-size: 1rem;
+  padding: 9px 6px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+
+.contact input{
+  width: 49.5%;
+  margin-top: 10px;
+}
+
+.contact textarea{
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.contact button{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+  background-color: #3db0d6;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #3db0d6;
 }
